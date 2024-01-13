@@ -36,3 +36,29 @@ docker image inspect spring-gradle
 ```
 Image Size - 844Mb
 ```
+
+______
+## Build image using multistage maven
+```
+docker build -f prod.maven.Dockerfile -t spring-multistage-maven .
+
+docker run -p 8080:8080 -it spring-multistage-maven
+
+docker image inspect spring-multistage-maven
+```
+```
+Image Size - 454Mb
+```
+
+______
+## Build image using multistage gradle
+```
+docker build -f prod.maven.Dockerfile -t spring-multistage-gradle .
+
+docker run -p 8080:8080 -it spring-multistage-gradle
+
+docker image inspect spring-multistage-gradle
+```
+```
+Image Size - 454Mb
+```
