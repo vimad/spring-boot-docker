@@ -47,7 +47,7 @@ docker run -p 8080:8080 -it spring-multistage-maven
 docker image inspect spring-multistage-maven
 ```
 ```
-Image Size - 454Mb
+Image Size - 220Mb
 ```
 
 ______
@@ -60,5 +60,5 @@ docker run -p 8080:8080 -it spring-multistage-gradle
 docker image inspect spring-multistage-gradle
 ```
 ```
-Image Size - 454Mb
+Image Size - 220Mb
 ```
