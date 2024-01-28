@@ -1,0 +1,335 @@
+[INFO] --- spring-boot:3.2.1:build-image (default-cli) @ spring-boot-docker ---
+[INFO] Building image 'docker.io/library/spring-boot-docker:1.0.0'
+[INFO]
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 0%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 1%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 1%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 1%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 1%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 2%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 2%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 2%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 2%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 2%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 2%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 2%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 2%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 3%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 3%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 3%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 3%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 3%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 3%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 3%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 3%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 3%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 3%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 3%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 3%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 3%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 4%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 4%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 4%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 5%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 5%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 5%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 5%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 5%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 5%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 5%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 5%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 5%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 5%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 6%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 6%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 6%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 6%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 6%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 6%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 7%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 7%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 7%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 7%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 8%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 8%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 8%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 9%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 9%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 10%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 10%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 10%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 11%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 11%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 11%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 12%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 12%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 12%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 12%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 13%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 13%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 13%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 13%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 13%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 13%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 14%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 14%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 14%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 14%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 15%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 15%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 15%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 16%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 16%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 17%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 17%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 17%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 17%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 18%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 18%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 18%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 18%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 18%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 19%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 20%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 22%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 30%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 36%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 44%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 46%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 46%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 47%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 47%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 47%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 47%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 48%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 48%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 49%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 50%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 50%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 50%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 51%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 51%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 51%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 52%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 52%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 52%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 52%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 52%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 52%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 53%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 53%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 53%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 53%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 53%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 53%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 53%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 53%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 53%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 53%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 53%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 53%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 53%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 54%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 54%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 54%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 54%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 54%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 54%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 55%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 55%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 55%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 55%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 55%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 55%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 55%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 55%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 55%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 55%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 55%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 55%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 56%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 56%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 56%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 57%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 62%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 63%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 63%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 64%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 64%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 65%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 65%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 66%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 69%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 70%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 71%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 72%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 75%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 79%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 80%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 81%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 81%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 82%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 83%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 84%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 85%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 86%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 86%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 88%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 89%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 91%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' 100%
+[INFO]  > Pulled builder image 'paketobuildpacks/builder-jammy-base@sha256:92811b61280130099527b40c7650c871187a7e1cebb21744d93e480fc34cbcb0'
+[INFO]  > Pulling run image 'docker.io/paketobuildpacks/run-jammy-base:latest' 9%
+[INFO]  > Pulling run image 'docker.io/paketobuildpacks/run-jammy-base:latest' 20%
+[INFO]  > Pulling run image 'docker.io/paketobuildpacks/run-jammy-base:latest' 21%
+[INFO]  > Pulling run image 'docker.io/paketobuildpacks/run-jammy-base:latest' 25%
+[INFO]  > Pulling run image 'docker.io/paketobuildpacks/run-jammy-base:latest' 38%
+[INFO]  > Pulling run image 'docker.io/paketobuildpacks/run-jammy-base:latest' 100%
+[INFO]  > Pulled run image 'paketobuildpacks/run-jammy-base@sha256:2cc8bb333754ccb35df8451471256c31cda09db6e4d16ee7503fb4f61ae83e98'
+[INFO]  > Executing lifecycle version v0.18.4
+[INFO]  > Using build cache volume 'pack-cache-0bf7539b58f1.build'
+[INFO]
+[INFO]  > Running creator
+[INFO]     [creator]     ===> ANALYZING
+[INFO]     [creator]     Image with name "docker.io/library/spring-boot-docker:1.0.0" not found
+[INFO]     [creator]     ===> DETECTING
+[INFO]     [creator]     6 of 26 buildpacks participating
+[INFO]     [creator]     paketo-buildpacks/ca-certificates   3.6.7
+[INFO]     [creator]     paketo-buildpacks/bellsoft-liberica 10.4.4
+[INFO]     [creator]     paketo-buildpacks/syft              1.42.0
+[INFO]     [creator]     paketo-buildpacks/executable-jar    6.8.3
+[INFO]     [creator]     paketo-buildpacks/dist-zip          5.6.8
+[INFO]     [creator]     paketo-buildpacks/spring-boot       5.27.8
+[INFO]     [creator]     ===> RESTORING
+[INFO]     [creator]     ===> BUILDING
+[INFO]     [creator]
+[INFO]     [creator]     Paketo Buildpack for CA Certificates 3.6.7
+[INFO]     [creator]       https://github.com/paketo-buildpacks/ca-certificates
+[INFO]     [creator]       Launch Helper: Contributing to layer
+[INFO]     [creator]         Creating /layers/paketo-buildpacks_ca-certificates/helper/exec.d/ca-certificates-helper
+[INFO]     [creator]
+[INFO]     [creator]     Paketo Buildpack for BellSoft Liberica 10.4.4
+[INFO]     [creator]       https://github.com/paketo-buildpacks/bellsoft-liberica
+[INFO]     [creator]       Build Configuration:
+[INFO]     [creator]         $BP_JVM_JLINK_ARGS           --no-man-pages --no-header-files --strip-debug --compress=1  configure custom link arguments (--output must be omitted)
+[INFO]     [creator]         $BP_JVM_JLINK_ENABLED        false                                                        enables running jlink tool to generate custom JRE
+[INFO]     [creator]         $BP_JVM_TYPE                 JRE                                                          the JVM type - JDK or JRE
+[INFO]     [creator]         $BP_JVM_VERSION              17                                                           the Java version
+[INFO]     [creator]       Launch Configuration:
+[INFO]     [creator]         $BPL_DEBUG_ENABLED           false                                                        enables Java remote debugging support
+[INFO]     [creator]         $BPL_DEBUG_PORT              8000                                                         configure the remote debugging port
+[INFO]     [creator]         $BPL_DEBUG_SUSPEND           false                                                        configure whether to suspend execution until a debugger has attached
+[INFO]     [creator]         $BPL_HEAP_DUMP_PATH                                                                       write heap dumps on error to this path
+[INFO]     [creator]         $BPL_JAVA_NMT_ENABLED        true                                                         enables Java Native Memory Tracking (NMT)
+[INFO]     [creator]         $BPL_JAVA_NMT_LEVEL          summary                                                      configure level of NMT, summary or detail
+[INFO]     [creator]         $BPL_JFR_ARGS                                                                             configure custom Java Flight Recording (JFR) arguments
+[INFO]     [creator]         $BPL_JFR_ENABLED             false                                                        enables Java Flight Recording (JFR)
+[INFO]     [creator]         $BPL_JMX_ENABLED             false                                                        enables Java Management Extensions (JMX)
+[INFO]     [creator]         $BPL_JMX_PORT                5000                                                         configure the JMX port
+[INFO]     [creator]         $BPL_JVM_HEAD_ROOM           0                                                            the headroom in memory calculation
+[INFO]     [creator]         $BPL_JVM_LOADED_CLASS_COUNT  35% of classes                                               the number of loaded classes in memory calculation
+[INFO]     [creator]         $BPL_JVM_THREAD_COUNT        250                                                          the number of threads in memory calculation
+[INFO]     [creator]         $JAVA_TOOL_OPTIONS                                                                        the JVM launch flags
+[INFO]     [creator]         Using Java version 21 extracted from MANIFEST.MF
+[INFO]     [creator]       BellSoft Liberica JRE 21.0.1: Contributing to layer
+[INFO]     [creator]         Downloading from https://github.com/bell-sw/Liberica/releases/download/21.0.1+12/bellsoft-jre21.0.1+12-linux-amd64.tar.gz
+[INFO]     [creator]         Verifying checksum
+[INFO]     [creator]         Expanding to /layers/paketo-buildpacks_bellsoft-liberica/jre
+[INFO]     [creator]         Adding 137 container CA certificates to JVM truststore
+[INFO]     [creator]         Writing env.launch/BPI_APPLICATION_PATH.default
+[INFO]     [creator]         Writing env.launch/BPI_JVM_CACERTS.default
+[INFO]     [creator]         Writing env.launch/BPI_JVM_CLASS_COUNT.default
+[INFO]     [creator]         Writing env.launch/BPI_JVM_SECURITY_PROVIDERS.default
+[INFO]     [creator]         Writing env.launch/JAVA_HOME.default
+[INFO]     [creator]         Writing env.launch/JAVA_TOOL_OPTIONS.append
+[INFO]     [creator]         Writing env.launch/JAVA_TOOL_OPTIONS.delim
+[INFO]     [creator]         Writing env.launch/MALLOC_ARENA_MAX.default
+[INFO]     [creator]       Launch Helper: Contributing to layer
+[INFO]     [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/active-processor-count
+[INFO]     [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/java-opts
+[INFO]     [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/jvm-heap
+[INFO]     [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/link-local-dns
+[INFO]     [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/memory-calculator
+[INFO]     [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/security-providers-configurer
+[INFO]     [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/jmx
+[INFO]     [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/jfr
+[INFO]     [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/openssl-certificate-loader
+[INFO]     [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/security-providers-classpath-9
+[INFO]     [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/debug-9
+[INFO]     [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/nmt
+[INFO]     [creator]       Java Security Properties: Contributing to layer
+[INFO]     [creator]         Writing env.launch/JAVA_SECURITY_PROPERTIES.default
+[INFO]     [creator]         Writing env.launch/JAVA_TOOL_OPTIONS.append
+[INFO]     [creator]         Writing env.launch/JAVA_TOOL_OPTIONS.delim
+[INFO]     [creator]
+[INFO]     [creator]     Paketo Buildpack for Syft 1.42.0
+[INFO]     [creator]       https://github.com/paketo-buildpacks/syft
+[INFO]     [creator]         Downloading from https://github.com/anchore/syft/releases/download/v0.99.0/syft_0.99.0_linux_amd64.tar.gz
+[INFO]     [creator]         Verifying checksum
+[INFO]     [creator]         Writing env.build/SYFT_CHECK_FOR_APP_UPDATE.default
+[INFO]     [creator]
+[INFO]     [creator]     Paketo Buildpack for Executable JAR 6.8.3
+[INFO]     [creator]       https://github.com/paketo-buildpacks/executable-jar
+[INFO]     [creator]       Class Path: Contributing to layer
+[INFO]     [creator]         Writing env/CLASSPATH.delim
+[INFO]     [creator]         Writing env/CLASSPATH.prepend
+[INFO]     [creator]       Process types:
+[INFO]     [creator]         executable-jar: java org.springframework.boot.loader.launch.JarLauncher (direct)
+[INFO]     [creator]         task:           java org.springframework.boot.loader.launch.JarLauncher (direct)
+[INFO]     [creator]         web:            java org.springframework.boot.loader.launch.JarLauncher (direct)
+[INFO]     [creator]
+[INFO]     [creator]     Paketo Buildpack for Spring Boot 5.27.8
+[INFO]     [creator]       https://github.com/paketo-buildpacks/spring-boot
+[INFO]     [creator]       Build Configuration:
+[INFO]     [creator]         $BP_SPRING_CLOUD_BINDINGS_DISABLED   false  whether to contribute Spring Boot cloud bindings support
+[INFO]     [creator]         $BP_SPRING_CLOUD_BINDINGS_VERSION    1      default version of Spring Cloud Bindings library to contribute
+[INFO]     [creator]       Launch Configuration:
+[INFO]     [creator]         $BPL_SPRING_CLOUD_BINDINGS_DISABLED  false  whether to auto-configure Spring Boot environment properties from bindings
+[INFO]     [creator]         $BPL_SPRING_CLOUD_BINDINGS_ENABLED   true   Deprecated - whether to auto-configure Spring Boot environment properties from bindings
+[INFO]     [creator]       Creating slices from layers index
+[INFO]     [creator]         dependencies (18.6 MB)
+[INFO]     [creator]         spring-boot-loader (442.7 KB)
+[INFO]     [creator]         snapshot-dependencies (0.0 B)
+[INFO]     [creator]         application (40.9 KB)
+[INFO]     [creator]       Launch Helper: Contributing to layer
+[INFO]     [creator]         Creating /layers/paketo-buildpacks_spring-boot/helper/exec.d/spring-cloud-bindings
+[INFO]     [creator]       Spring Cloud Bindings 2.0.2: Contributing to layer
+[INFO]     [creator]         Downloading from https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-bindings/2.0.2/spring-cloud-bindings-2.0.2.jar
+[INFO]     [creator]         Verifying checksum
+[INFO]     [creator]         Copying to /layers/paketo-buildpacks_spring-boot/spring-cloud-bindings
+[INFO]     [creator]       Web Application Type: Contributing to layer
+[INFO]     [creator]         Servlet web application detected
+[INFO]     [creator]         Writing env.launch/BPL_JVM_THREAD_COUNT.default
+[INFO]     [creator]       4 application slices
+[INFO]     [creator]       Image labels:
+[INFO]     [creator]         org.opencontainers.image.title
+[INFO]     [creator]         org.opencontainers.image.version
+[INFO]     [creator]         org.springframework.boot.version
+[INFO]     [creator]     ===> EXPORTING
+[INFO]     [creator]     Adding layer 'paketo-buildpacks/ca-certificates:helper'
+[INFO]     [creator]     Adding layer 'paketo-buildpacks/bellsoft-liberica:helper'
+[INFO]     [creator]     Adding layer 'paketo-buildpacks/bellsoft-liberica:java-security-properties'
+[INFO]     [creator]     Adding layer 'paketo-buildpacks/bellsoft-liberica:jre'
+[INFO]     [creator]     Adding layer 'paketo-buildpacks/executable-jar:classpath'
+[INFO]     [creator]     Adding layer 'paketo-buildpacks/spring-boot:helper'
+[INFO]     [creator]     Adding layer 'paketo-buildpacks/spring-boot:spring-cloud-bindings'
+[INFO]     [creator]     Adding layer 'paketo-buildpacks/spring-boot:web-application-type'
+[INFO]     [creator]     Adding layer 'buildpacksio/lifecycle:launch.sbom'
+[INFO]     [creator]     Adding 5/5 app layer(s)
+[INFO]     [creator]     Adding layer 'buildpacksio/lifecycle:launcher'
+[INFO]     [creator]     Adding layer 'buildpacksio/lifecycle:config'
+[INFO]     [creator]     Adding layer 'buildpacksio/lifecycle:process-types'
+[INFO]     [creator]     Adding label 'io.buildpacks.lifecycle.metadata'
+[INFO]     [creator]     Adding label 'io.buildpacks.build.metadata'
+[INFO]     [creator]     Adding label 'io.buildpacks.project.metadata'
+[INFO]     [creator]     Adding label 'org.opencontainers.image.title'
+[INFO]     [creator]     Adding label 'org.opencontainers.image.version'
+[INFO]     [creator]     Adding label 'org.springframework.boot.version'
+[INFO]     [creator]     Setting default process type 'web'
+[INFO]     [creator]     Saving docker.io/library/spring-boot-docker:1.0.0...
+[INFO]     [creator]     *** Images (b1f5071b5d7f):
+[INFO]     [creator]           docker.io/library/spring-boot-docker:1.0.0
+[INFO]     [creator]     Adding cache layer 'paketo-buildpacks/syft:syft'
+[INFO]     [creator]     Adding cache layer 'buildpacksio/lifecycle:cache.sbom'
+[INFO] 
+[INFO] Successfully built image 'docker.io/library/spring-boot-docker:1.0.0'

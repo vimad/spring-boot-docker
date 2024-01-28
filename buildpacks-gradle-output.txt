@@ -1,0 +1,162 @@
+> Task :bootBuildImage
+Building image 'docker.io/library/gradle-task-build:latest'
+
+ > Pulling builder image 'docker.io/paketobuildpacks/builder-jammy-base:latest' ..................................................
+ > Pulled builder image 'paketobuildpacks/builder-jammy-base@sha256:92811b61280130099527b40c7650c871187a7e1cebb21744d93e480fc34cbcb0'
+ > Pulling run image 'docker.io/paketobuildpacks/run-jammy-base:latest' ..................................................
+ > Pulled run image 'paketobuildpacks/run-jammy-base@sha256:2cc8bb333754ccb35df8451471256c31cda09db6e4d16ee7503fb4f61ae83e98'
+ > Executing lifecycle version v0.18.4
+ > Using build cache volume 'pack-cache-f2488eb8a18a.build'
+
+ > Running creator
+    [creator]     ===> ANALYZING
+    [creator]     Image with name "docker.io/library/gradle-task-build:latest" not found
+    [creator]     ===> DETECTING
+    [creator]     6 of 26 buildpacks participating
+    [creator]     paketo-buildpacks/ca-certificates   3.6.7
+    [creator]     paketo-buildpacks/bellsoft-liberica 10.4.4
+    [creator]     paketo-buildpacks/syft              1.42.0
+    [creator]     paketo-buildpacks/executable-jar    6.8.3
+    [creator]     paketo-buildpacks/dist-zip          5.6.8
+    [creator]     paketo-buildpacks/spring-boot       5.27.8
+    [creator]     ===> RESTORING
+    [creator]     ===> BUILDING
+    [creator]
+    [creator]     Paketo Buildpack for CA Certificates 3.6.7
+    [creator]       https://github.com/paketo-buildpacks/ca-certificates
+    [creator]       Launch Helper: Contributing to layer
+    [creator]         Creating /layers/paketo-buildpacks_ca-certificates/helper/exec.d/ca-certificates-helper
+    [creator]
+    [creator]     Paketo Buildpack for BellSoft Liberica 10.4.4
+    [creator]       https://github.com/paketo-buildpacks/bellsoft-liberica
+    [creator]       Build Configuration:
+    [creator]         $BP_JVM_JLINK_ARGS           --no-man-pages --no-header-files --strip-debug --compress=1  configure custom link arguments (--output must be omitted)
+    [creator]         $BP_JVM_JLINK_ENABLED        false                                                        enables running jlink tool to generate custom JRE
+    [creator]         $BP_JVM_TYPE                 JRE                                                          the JVM type - JDK or JRE
+    [creator]         $BP_JVM_VERSION              17                                                           the Java version
+    [creator]       Launch Configuration:
+    [creator]         $BPL_DEBUG_ENABLED           false                                                        enables Java remote debugging support
+    [creator]         $BPL_DEBUG_PORT              8000                                                         configure the remote debugging port
+    [creator]         $BPL_DEBUG_SUSPEND           false                                                        configure whether to suspend execution until a debugger has attached
+    [creator]         $BPL_HEAP_DUMP_PATH                                                                       write heap dumps on error to this path
+    [creator]         $BPL_JAVA_NMT_ENABLED        true                                                         enables Java Native Memory Tracking (NMT)
+    [creator]         $BPL_JAVA_NMT_LEVEL          summary                                                      configure level of NMT, summary or detail
+    [creator]         $BPL_JFR_ARGS                                                                             configure custom Java Flight Recording (JFR) arguments
+    [creator]         $BPL_JFR_ENABLED             false                                                        enables Java Flight Recording (JFR)
+    [creator]         $BPL_JMX_ENABLED             false                                                        enables Java Management Extensions (JMX)
+    [creator]         $BPL_JMX_PORT                5000                                                         configure the JMX port
+    [creator]         $BPL_JVM_HEAD_ROOM           0                                                            the headroom in memory calculation
+    [creator]         $BPL_JVM_LOADED_CLASS_COUNT  35% of classes                                               the number of loaded classes in memory calculation
+    [creator]         $BPL_JVM_THREAD_COUNT        250                                                          the number of threads in memory calculation
+    [creator]         $JAVA_TOOL_OPTIONS                                                                        the JVM launch flags
+    [creator]         Using Java version 21 extracted from MANIFEST.MF
+    [creator]       BellSoft Liberica JRE 21.0.1: Contributing to layer
+    [creator]         Downloading from https://github.com/bell-sw/Liberica/releases/download/21.0.1+12/bellsoft-jre21.0.1+12-linux-amd64.tar.gz
+    [creator]         Verifying checksum
+    [creator]         Expanding to /layers/paketo-buildpacks_bellsoft-liberica/jre
+    [creator]         Adding 137 container CA certificates to JVM truststore
+    [creator]         Writing env.launch/BPI_APPLICATION_PATH.default
+    [creator]         Writing env.launch/BPI_JVM_CACERTS.default
+    [creator]         Writing env.launch/BPI_JVM_CLASS_COUNT.default
+    [creator]         Writing env.launch/BPI_JVM_SECURITY_PROVIDERS.default
+    [creator]         Writing env.launch/JAVA_HOME.default
+    [creator]         Writing env.launch/JAVA_TOOL_OPTIONS.append
+    [creator]         Writing env.launch/JAVA_TOOL_OPTIONS.delim
+    [creator]         Writing env.launch/MALLOC_ARENA_MAX.default
+    [creator]       Launch Helper: Contributing to layer
+    [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/active-processor-count
+    [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/java-opts
+    [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/jvm-heap
+    [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/link-local-dns
+    [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/memory-calculator
+    [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/security-providers-configurer
+    [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/jmx
+    [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/jfr
+    [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/openssl-certificate-loader
+    [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/security-providers-classpath-9
+    [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/debug-9
+    [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/nmt
+    [creator]       Java Security Properties: Contributing to layer
+    [creator]         Writing env.launch/JAVA_SECURITY_PROPERTIES.default
+    [creator]         Writing env.launch/JAVA_TOOL_OPTIONS.append
+    [creator]         Writing env.launch/JAVA_TOOL_OPTIONS.delim
+    [creator]
+    [creator]     Paketo Buildpack for Syft 1.42.0
+    [creator]       https://github.com/paketo-buildpacks/syft
+    [creator]         Downloading from https://github.com/anchore/syft/releases/download/v0.99.0/syft_0.99.0_linux_amd64.tar.gz
+    [creator]         Verifying checksum
+    [creator]         Writing env.build/SYFT_CHECK_FOR_APP_UPDATE.default
+    [creator]     
+    [creator]     Paketo Buildpack for Executable JAR 6.8.3
+    [creator]       https://github.com/paketo-buildpacks/executable-jar
+<==========---> 83% EXECUTING [39s]
+> :bootBuildImage
+    [creator]       Class Path: Contributing to layer
+    [creator]         Writing env/CLASSPATH.delim
+    [creator]         Writing env/CLASSPATH.prepend
+    [creator]       Process types:
+    [creator]         executable-jar: java org.springframework.boot.loader.launch.JarLauncher (direct)
+    [creator]         task:           java org.springframework.boot.loader.launch.JarLauncher (direct)
+    [creator]         web:            java org.springframework.boot.loader.launch.JarLauncher (direct)
+    [creator]
+    [creator]     Paketo Buildpack for Spring Boot 5.27.8
+    [creator]       https://github.com/paketo-buildpacks/spring-boot
+    [creator]       Build Configuration:
+    [creator]         $BP_SPRING_CLOUD_BINDINGS_DISABLED   false  whether to contribute Spring Boot cloud bindings support
+    [creator]         $BP_SPRING_CLOUD_BINDINGS_VERSION    1      default version of Spring Cloud Bindings library to contribute
+    [creator]       Launch Configuration:
+    [creator]         $BPL_SPRING_CLOUD_BINDINGS_DISABLED  false  whether to auto-configure Spring Boot environment properties from bindings
+    [creator]         $BPL_SPRING_CLOUD_BINDINGS_ENABLED   true   Deprecated - whether to auto-configure Spring Boot environment properties from bindings
+    [creator]       Creating slices from layers index
+    [creator]         dependencies (18.6 MB)
+    [creator]         spring-boot-loader (442.7 KB)
+    [creator]         snapshot-dependencies (0.0 B)
+    [creator]         application (35.3 KB)
+    [creator]       Launch Helper: Contributing to layer
+    [creator]       Creating slices from layers index
+    [creator]         dependencies (18.6 MB)
+    [creator]         spring-boot-loader (442.7 KB)
+    [creator]         snapshot-dependencies (0.0 B)
+    [creator]         application (35.3 KB)
+    [creator]       Launch Helper: Contributing to layer
+    [creator]         Creating /layers/paketo-buildpacks_spring-boot/helper/exec.d/spring-cloud-bindings
+    [creator]       Spring Cloud Bindings 2.0.2: Contributing to layer
+    [creator]         Downloading from https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-bindings/2.0.2/spring-cloud-bindings-2.0.2.jar
+    [creator]         Verifying checksum
+    [creator]         Copying to /layers/paketo-buildpacks_spring-boot/spring-cloud-bindings
+    [creator]       Web Application Type: Contributing to layer
+    [creator]         Servlet web application detected
+    [creator]         Writing env.launch/BPL_JVM_THREAD_COUNT.default
+    [creator]       4 application slices
+    [creator]       Image labels:
+    [creator]         org.opencontainers.image.title
+    [creator]         org.opencontainers.image.version
+    [creator]         org.springframework.boot.version
+    [creator]     ===> EXPORTING
+    [creator]     Adding layer 'paketo-buildpacks/ca-certificates:helper'
+    [creator]     Adding layer 'paketo-buildpacks/bellsoft-liberica:helper'
+    [creator]     Adding layer 'paketo-buildpacks/bellsoft-liberica:java-security-properties'
+    [creator]     Adding layer 'paketo-buildpacks/bellsoft-liberica:jre'
+    [creator]     Adding layer 'paketo-buildpacks/executable-jar:classpath'
+    [creator]     Adding layer 'paketo-buildpacks/spring-boot:helper'
+    [creator]     Adding layer 'paketo-buildpacks/spring-boot:spring-cloud-bindings'
+    [creator]     Adding layer 'paketo-buildpacks/spring-boot:web-application-type'
+    [creator]     Adding layer 'buildpacksio/lifecycle:launch.sbom'
+    [creator]     Adding 5/5 app layer(s)
+    [creator]     Adding layer 'buildpacksio/lifecycle:launcher'
+    [creator]     Adding layer 'buildpacksio/lifecycle:config'
+    [creator]     Adding layer 'buildpacksio/lifecycle:process-types'
+    [creator]     Adding label 'io.buildpacks.lifecycle.metadata'
+    [creator]     Adding label 'io.buildpacks.build.metadata'
+    [creator]     Adding label 'io.buildpacks.project.metadata'
+    [creator]     Adding label 'org.opencontainers.image.title'
+    [creator]     Adding label 'org.opencontainers.image.version'
+    [creator]     Adding label 'org.springframework.boot.version'
+    [creator]     Setting default process type 'web'
+    [creator]     Saving docker.io/library/gradle-task-build:latest...
+    [creator]     *** Images (47a587ca9afd):
+    [creator]           docker.io/library/gradle-task-build:latest
+    [creator]     Adding cache layer 'paketo-buildpacks/syft:syft'
+    [creator]     Adding cache layer 'buildpacksio/lifecycle:cache.sbom'
+
+Successfully built image 'docker.io/library/gradle-task-build:latest'

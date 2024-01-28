@@ -75,3 +75,15 @@ docker image inspect spring-multistage-maven-native
 ```
 Image Size - 189Mb
 ```
+
+-----
+## Build image using build tools
+```
+./mvnw spring-boot:build-image
+./gradlew bootBuildImage --imageName=gradle-task-build
+```
+```
+Image Size - 356Mb
+```
+
+
