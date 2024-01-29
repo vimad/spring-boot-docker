@@ -1,3 +1,6 @@
+This contains source code associate with my Docker with Spring Boot blog series
+- [Docker With Spring Boot: Part 1 — Create Images Using Docker File](https://medium.com/javarevisited/docker-with-spring-boot-part-1-create-images-using-docker-file-2a65b2a357ee)
+
 ______
 ## Build image using precompiled jar
 ```
@@ -77,7 +80,7 @@ Image Size - 189Mb
 ```
 
 -----
-## Build image using build tools
+## Build image using buildpacks
 ```
 ./mvnw spring-boot:build-image
 ./gradlew bootBuildImage --imageName=gradle-task-build
@@ -86,4 +89,16 @@ Image Size - 189Mb
 Image Size - 356Mb
 ```
 
+---
+## Build image using Jib
+```
+./mvnw compile jib:dockerBuild
+docker run -p 8080:8080 -it jib-maven
+
+./gradlew jibDockerBuild
+docker run -p 8080:8080 -it jib-gradle
+```
+```
+Image Size - 312MB
+```
 
