@@ -102,3 +102,13 @@ docker run -p 8080:8080 -it jib-gradle
 Image Size - 312MB
 ```
 
+---
+## Build image using fabric8 docker maven plugin
+```
+./mvnw docker:build
+docker run -p 8080:8080 -it maven-fabric8
+```
+```
+Image Size - 455MB
+```
+
