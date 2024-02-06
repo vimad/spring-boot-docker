@@ -3,6 +3,30 @@ plugins {
 	id 'org.springframework.boot' version '3.2.1'
 	id 'io.spring.dependency-management' version '1.1.4'
 	id 'com.google.cloud.tools.jib' version '3.4.0'
+	id 'com.bmuschko.docker-spring-boot-application' version '9.4.0'
+	id 'com.bmuschko.docker-remote-api' version '9.4.0'
+}
+
+docker {
+	springBootApplication {
+		baseImage = 'eclipse-temurin:21'
+		ports = [8080]
+		images = ['gradle-docker']
+	}
+}
+
+import com.bmuschko.gradle.docker.tasks.container.*
+
+task createContainer(type: DockerCreateContainer) {
+	dependsOn
+	targetImageId dockerBuildImage.getImageId()
+	hostConfig.portBindings = ['8080:8080']
+	hostConfig.autoRemove = true
+}
+
+task startContainer(type: DockerStartContainer) {
+	dependsOn createContainer
+	targetContainerId createContainer.getContainerId()
 }
 
 group = 'com.example'

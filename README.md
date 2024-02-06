@@ -112,3 +112,13 @@ docker run -p 8080:8080 -it maven-fabric8
 Image Size - 455MB
 ```
 
+---
+## Build image using gradle docker plugin
+```
+./gradlew dockerBuildImage
+docker run -p 8080:8080 -it gradle-docker
+```
+```
+Image Size - 455MB
+```
+
