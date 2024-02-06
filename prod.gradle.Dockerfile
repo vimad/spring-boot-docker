@@ -1,4 +1,4 @@
-FROM gradle:8.5.0-jdk21
+FROM gradle:8.5.0-jdk21 AS builder
 WORKDIR /app
 RUN chown -R gradle:gradle /app
 USER gradle

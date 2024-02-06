@@ -56,7 +56,7 @@ Image Size - 220Mb
 ______
 ## Build image using multistage gradle
 ```
-docker build -f prod.maven.Dockerfile -t spring-multistage-gradle .
+docker build -f prod.gradle.Dockerfile -t spring-multistage-gradle .
 
 docker run -p 8080:8080 -it spring-multistage-gradle
 
