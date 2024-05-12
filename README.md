@@ -1,5 +1,7 @@
 This contains source code associate with my Docker with Spring Boot blog series
 - [Docker With Spring Boot: Part 1 — Create Images Using Docker File](https://medium.com/javarevisited/docker-with-spring-boot-part-1-create-images-using-docker-file-2a65b2a357ee)
+- [Docker With Spring Boot: Part 2 — Create Images Using Build Tools](https://medium.com/javarevisited/docker-with-spring-boot-part-2-create-images-using-build-tools-644c67a864dd)
+- [Docker With Spring Boot: Part 3 — Inspect Images](https://medium.com/javarevisited/docker-with-spring-boot-part-3-inspect-images-219adb8e07f2)
 
 ______
 ## Build image using precompiled jar
